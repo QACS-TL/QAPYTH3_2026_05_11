@@ -23,3 +23,12 @@ class Animal:
 
     def move(self, direction):
         return f"I'm an {self.colour} animal called {self.name} using some of my {self._limbcount} limbs to move {direction}"
+
+    def __str__(self):
+        return f"name: {self.name}, colour: {self.colour}, limbcount: {self.limbcount}"
+
+    def __add__(self, other):
+        self.colour = self.colour + " " + other.colour
+        self.limbcount += other.limbcount
+        self.name = self.name + " " + other.name
+        return self.__str__()
