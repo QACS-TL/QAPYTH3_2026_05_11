@@ -1,0 +1,7 @@
+plate,top_speed,current_speed,make,model
+AB12CDE,180,70,Ford,Focus
+XY34ZRT,200,90,BMW,320i
+LM56OPQ,160,60,Toyota,Corolla
+GH78JKL,220,100,Audi,A4
+ABC123,80,20,VW,Beetle
+ROAD,AB12CDE,XY34ZRT,GH78JKL,ABC123,LM56OPQ
